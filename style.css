@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+}
+
+header {
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 10px;
+}
+
+footer {
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem #0077ea;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 1rem;
+    width: calc(100% - 200px);
+    background-color: #388371;
+    margin: 10px;
+    border-radius: 0.5rem;
+    
+}
+
+.item{
+    background-color: #2f8d59;
+    margin: 1rem;
+    padding: 1rem;
+    width: calc(25% - 2rem);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem #226741;
+    text-align: center;
+
+} 
+
+.sidebar {
+    background-color: #ff6347;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem #e02200;
+    margin: 10px;
+}
+
+/* faltou arrumar os tamanhos dos quadros */
