@@ -44,9 +44,9 @@ p {
     padding-left: 10px;
     margin-left: 0.8rem;
     margin-top: 0.8rem;
-  }
+}
   
-  main {
+main {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(123, 201, 123);
@@ -58,27 +58,27 @@ p {
     box-shadow: inset -5px -10px 5px -5px rgba(10, 36, 18, 0.158),
       inset 0 -4px 8px 4px rgba(0, 0, 0, 0.342),
       inset 5px -10px 5px -5px rgba(31, 30, 30, 0.158);
-  }
+}
   
-  .container {
+.container {
     display: flex;
-  }
+}
   
-  main > .container {
+main > .container {
     width: 50vw;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-  }
+}
   
-  .column {
+.column {
     width: 10rem;
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
+}
   
-  .item {
+.item {
     background-color: rgb(22, 143, 103);
     color: #ffffff;
     font-weight: 700;
@@ -91,16 +91,16 @@ p {
     box-shadow: inset -5px -10px 5px -5px rgba(18, 75, 10, 0.158),
       inset 0 -4px 8px 4px rgba(0, 0, 0, 0.404),
       inset 5px -10px 5px -5px rgba(31, 30, 30, 0.158);
-  }
-  .sidebar {
+}
+.sidebar {
     width: 11rem;
     background-color: rgba(248, 21, 21, 0.856);
     margin-bottom: 1rem;
     border-radius: 12px;
    
-  }
+}
   
-  footer {
+footer {
     background-color: rgb(32, 125, 187);
     display: flex;
     height: 7rem;
@@ -111,5 +111,5 @@ p {
     box-shadow: inset -5px -10px 5px -5px rgba(68, 53, 199, 0.158),
       inset 0 -4px 8px 4px rgba(0, 0, 0, 0.459),
       inset 5px -10px 5px -5px rgba(31, 30, 30, 0.158);
-  }
+}
   
